@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#060c1a" />
+  <meta name="description" content="EXACT ANSWER is a browser riddle game where you type exact answers with limited tries." />
+  <title>EXACT ANSWER</title>
+  <link rel="icon" type="image/png" href="./favicon.png" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main class="app" aria-labelledby="gameTitle">
+    <header>
+      <h1 class="title" id="gameTitle">💧 EXACT ANSWER 💧</h1>
+      <p class="stats">
+        Question: <b id="questionNumber">1 / 10</b> · Score: <b id="score">0</b> · Tries: <b id="triesCounter">3</b>
+      </p>
+      <p class="text">Type the exact answer to pass each riddle.</p>
+      <p class="text">One mistake gives a hint. Three mistakes move to the next one.</p>
+    </header>
+
+    <section class="board" aria-label="Current riddle">
+      <article class="card">
+        <p class="riddle" id="riddle">Loading...</p>
+      </article>
+    </section>
+
+    <section class="panel" aria-label="Answer input and game status">
+      <div class="controls">
+        <label for="answerInput" class="sr-only">Answer input</label>
+        <input id="answerInput" type="text" placeholder="Type the exact answer" autocomplete="off" autofocus />
+        <button id="checkButton" type="button">Check</button>
+      </div>
+
+      <p class="msg" id="status" role="status" aria-live="polite">Good luck!</p>
+      <p class="hint" id="hint">A hint appears after a mistake.</p>
+    </section>
+
+    <footer class="footer" aria-label="Project credits">
+      <div class="credit">
+        <span class="label">Made by</span>
+        <a class="author" href="https://xar3s.ru/" target="_blank" rel="noopener noreferrer">xar3s</a>
+        <span class="dot">•</span>
+        <span class="year" id="footerYear"></span>
+      </div>
+
+      <a class="repo" href="https://github.com/x4r3s/exact-answer" target="_blank" rel="noopener noreferrer" aria-label="View repository">
+        <img class="icon" src="./github.svg" alt="" aria-hidden="true" />
+        <span>View repository</span>
+      </a>
+    </footer>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
