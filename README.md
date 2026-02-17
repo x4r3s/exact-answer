@@ -31,30 +31,6 @@
 
 **EXACT ANSWER** is a lightweight browser-based riddle game where the player must type the **exact answer** for each question.
 
-The project is intentionally built using **vanilla web technologies** to demonstrate clean structure, readable game logic, and responsive layout without frameworks or external libraries.
-
----
-
-## ✨ Features
-
-- Minimalistic and intuitive user interface
-- Fully responsive layout
-- No external dependencies
-- Clear separation of structure, style, and logic
-- Hint system after wrong attempts
-- Protection against repeated submit race conditions
-
----
-
-## 🎮 Gameplay
-
-- The game contains **10 riddles**
-- Each riddle gives the player **3 attempts**
-- Answers are checked by exact string match (normalized to lowercase)
-- After each wrong answer, a contextual hint is shown
-- If attempts reach zero, the game reveals the correct answer and moves to the next riddle
-- The final screen appears after all riddles are completed
-
 ---
 
 ## 🛠 Technologies
@@ -77,21 +53,6 @@ The project is intentionally built using **vanilla web technologies** to demonst
 - ✅ Safari (latest)
 
 > JavaScript must be enabled.
-
----
-
-## 📁 Project Structure
-
-```text
-exact-answer/
-├── index.html      # Main HTML file, game layout and structure
-├── style.css       # Stylesheet for layout, colors, and responsiveness
-├── script.js       # Game logic and user interaction
-├── banner.png      # Project banner image (used in README)
-├── github.svg      # GitHub icon used in footer
-├── favicon.png     # Browser tab icon
-└── LICENSE         # Project license
-```
 
 ---
 
