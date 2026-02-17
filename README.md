@@ -33,6 +33,23 @@
 
 ---
 
+## 📸 Screenshoot
+
+<p align="center">
+  <img src="./screenshot.png" width="900">
+</p>
+
+---
+
+## 🌐 Live Demo
+
+Play the game online:
+
+👉 **[EXACT ANSWER — Live Demo](https://exact-answer.xar3s.ru/)**  
+<sub>Hosted via GitHub Pages</sub>
+
+---
+
 ## 🛠 Technologies
 
 | Technology | Description |
