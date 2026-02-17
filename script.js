@@ -71,7 +71,6 @@ const ui = {
   input: document.getElementById("answerInput"),
   status: document.getElementById("status"),
   button: document.getElementById("checkButton"),
-  footerYear: document.getElementById("footerYear"),
 };
 
 function getCurrentRiddle() {
@@ -183,9 +182,5 @@ ui.input.addEventListener("keydown", (event) => {
     checkAnswer();
   }
 });
-
-if (ui.footerYear) {
-  ui.footerYear.textContent = new Date().getFullYear();
-}
 
 renderCurrentQuestion();
